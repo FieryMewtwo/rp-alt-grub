@@ -17,24 +17,34 @@
 
 > If you use Arch Linux or a derivative, PKGBUILDs are on the way
 
-1. Download or clone this repository to the themes folder for GRUB. Usually, this is `/boot/grub/themes/`.
+1. Download or clone this repository to a folder. The examples below use `/usr/share/grub/themes`.
 2. Modify the file `/etc/default/grub` to use the theme, using one of these examples depending on the theme you chose.
+3. Rebuild the grub.cfg file: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 
+> 
+> The AUR package extracts the theme to `/usr/share/grub/themes` instead.
+
+
+##### Rosé Pine Moon
 ```bash
-GRUB_THEME="/boot/grub/themes/rp-alt-grub/moon/theme.txt"
+GRUB_THEME="/usr/share/grub/themes/rp-alt-grub/moon/theme.txt"
 ```
+##### Rosé Pine Dawn
 ```bash
-GRUB_THEME="/boot/grub/themes/rp-alt-grub/dawn/theme.txt"
+GRUB_THEME="/usr/share/themes/rp-alt-grub/dawn/theme.txt"
 ```
+##### Rosé Pine
 ```bash
-GRUB_THEME="/boot/grub/themes/rp-alt-grub/default/theme.txt"
+GRUB_THEME="/usr/share/themes/rp-alt-grub/default/theme.txt"
 ```
 
 #### Updating
 > A `grub-mkconfig` is usually not needed, but is safe to run after updates
 
-If you cloned the repository via `git`, just use git pull to update.
-If you downloaded it from the UI, redownload and extract the files to the correct path above.
+- If you cloned the repository via `git`, just use git pull to update.
+- If you downloaded it from the UI, redownload and extract the files to the correct path above.
+- If you used the PKGBUILD, download the new PKGBUILD, `less PKGBUILD` **and read the thing to make sure it's safe**, then `makepkg -si`
+
 ## Gallery
 
 ![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
