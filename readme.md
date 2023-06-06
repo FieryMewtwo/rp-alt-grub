@@ -15,7 +15,7 @@
 
 ## Usage
 
-> If you use Arch Linux or a derivative, PKGBUILDs are on the way
+> If you use Arch Linux or a derivative, the PKGBUILD in the repository can be downloaded and used instead.
 
 1. Download or clone this repository to a folder. The examples below use `/usr/share/grub/themes`.
 2. Modify the file `/etc/default/grub` to use the theme, using one of these examples depending on the theme you chose.
