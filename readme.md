@@ -1,7 +1,9 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for GNU GRUB</h2>
 </p>
+
+> This is not the official Rosé Pine GRUB theme. This is an alternate set of unofficial GRUB themes using the Rosé Pine palettes.
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
 
@@ -13,9 +15,20 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+> If you use Arch Linux or a derivative, PKGBUILDs are on the way
+
+1. Download or clone this repository to the themes folder for GRUB. Usually, this is `/boot/grub/themes/`.
+2. Modify the file `/etc/default/grub` to use the theme, using one of these examples depending on the theme you chose.
+
+```bash
+GRUB_THEME="/boot/grub/themes/rose-pine-alt/moon/theme.txt"
+```
+```bash
+GRUB_THEME="/boot/grub/themes/rose-pine-alt/dawn/theme.txt"
+```
+```bash
+GRUB_THEME="/boot/grub/themes/rose-pine-alt/default/theme.txt"
+```
 
 ## Gallery
 
@@ -23,25 +36,5 @@
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include "theme" as well as any other categories. See [existing categories](https://rosepinetheme.com/themes), only adding new ones when necessary
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [sataa](https://stop.voring.me/@sataa)
+- [Dracula]() and [Crystal Linux]() for the upstream project
