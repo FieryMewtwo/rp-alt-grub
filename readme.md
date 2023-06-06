@@ -24,13 +24,13 @@
 2. Modify the file `/etc/default/grub` to use the theme, using one of these examples depending on the theme you chose.
 
 ```bash
-GRUB_THEME="/boot/grub/themes/rose-pine-alt/moon/theme.txt"
+GRUB_THEME="/boot/grub/themes/rp-alt-grub/moon/theme.txt"
 ```
 ```bash
-GRUB_THEME="/boot/grub/themes/rose-pine-alt/dawn/theme.txt"
+GRUB_THEME="/boot/grub/themes/rp-alt-grub/dawn/theme.txt"
 ```
 ```bash
-GRUB_THEME="/boot/grub/themes/rose-pine-alt/default/theme.txt"
+GRUB_THEME="/boot/grub/themes/rp-alt-grub/default/theme.txt"
 ```
 
 ## Gallery
@@ -40,4 +40,4 @@ GRUB_THEME="/boot/grub/themes/rose-pine-alt/default/theme.txt"
 ## Thanks to
 
 - [sataa](https://stop.voring.me/@sataa)
-- [Dracula]() and [Crystal Linux]() for the upstream project
+- [Dracula](https://draculatheme.com/) and [Crystal Linux](https://getcryst.al/site) for the upstream project
