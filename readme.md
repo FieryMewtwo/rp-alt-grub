@@ -30,6 +30,11 @@ GRUB_THEME="/boot/grub/themes/rp-alt-grub/dawn/theme.txt"
 GRUB_THEME="/boot/grub/themes/rp-alt-grub/default/theme.txt"
 ```
 
+#### Updating
+> A `grub-mkconfig` is usually not needed, but is safe to run after updates
+
+If you cloned the repository via `git`, just use git pull to update.
+If you downloaded it from the UI, redownload and extract the files to the correct path above.
 ## Gallery
 
 ![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
