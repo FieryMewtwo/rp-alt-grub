@@ -15,9 +15,6 @@
 
 ## Usage
 
-> The Dawn theme has broken icons. If anyone can recolor them to not be white, please send in a pull request.
-
-
 > If you use Arch Linux or a derivative, PKGBUILDs are on the way
 
 1. Download or clone this repository to the themes folder for GRUB. Usually, this is `/boot/grub/themes/`.
