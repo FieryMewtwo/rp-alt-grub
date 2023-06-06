@@ -27,8 +27,8 @@ terminal-border: "0"
   width = 80%
   height = 45%
   item_font = "Unifont Regular 12"
-  item_color = "#f6f6f6"
-  selected_item_color = "#f6f6f6"
+  item_color = "#575279"
+  selected_item_color = "#575279"
   item_height = 32
   item_spacing = 24
   selected_item_pixmap_style = "select_*.png"
@@ -43,5 +43,5 @@ terminal-border: "0"
   align = "center"
   id = "__timeout__"
   text = "Booting in %ds"
-  color = "#f6f6f6"
+  color = "#575279"
 }
