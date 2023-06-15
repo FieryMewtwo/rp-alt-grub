@@ -22,7 +22,7 @@
 3. Rebuild the grub.cfg file: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
 
 > 
-> The AUR package extracts the theme to `/usr/share/grub/themes/rp-alt-grub-1.0` instead. See [this issue](https://github.com/FieryMewtwo/rp-alt-grub/issues/4)
+> The Arch Linux package built with the included `PKGBUILD` extracts the theme to `/usr/share/grub/themes/rp-alt-grub-1.0` instead. See [this issue](https://github.com/FieryMewtwo/rp-alt-grub/issues/4)
 
 
 ##### Rosé Pine Moon
